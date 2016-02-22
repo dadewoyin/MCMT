@@ -8,11 +8,13 @@ body, html {
 }
 
 /* index.html */
-#logo {
-	text-align: center;
-	font-size: 3em;
-	margin: 0;
-	font-weight: bold;
+#logo-container {
+	margin: 0 auto;
+	width: 226px;
+	height: 70px;
+}
+#logo-img {
+	width: 100%;
 }
 nav {
 	text-align: center;
@@ -103,10 +105,6 @@ footer {
 		max-width: 100vh;
 		max-height: 100vh;
 	}
-	#logo {
-		position: relative;
-		top: 10px;
-	}
 	nav {
 		position: relative;
 		right: 20px;
@@ -119,10 +117,13 @@ footer {
 		padding-top: 10px;
 	}
 	.carouselPic {
-		height: 450px;
+		height: 400px;
 	}
 	#copyright {
 		text-align: center;
 		padding: 10px 0 5px 0;
+	}
+	#logo-container {
+		padding-top: 10px;
 	}
 }
