@@ -61,6 +61,7 @@ footer {
 	margin: 0 !important;
 	padding: 10px 0 0 5px;
 }
+
 /* Media Queries */
 /****************************************************************************
 (800 X 600) + (768 X 1024) Tablet View
@@ -69,7 +70,7 @@ footer {
 { 
 	body {
 		max-width: 100%;
-
+	}
 	
 }
 
@@ -81,14 +82,18 @@ footer {
 	body {
 		max-width: 100%;		
 	}
-	nav ul li {
-		padding: 0 2% 0 2%;
+	nav {
+		position: relative;
+		right: 20px;
 	}
-	#logo {
-		padding-top: 100px;
+	.carouselPic {
+		height: 250px;
+	}
+	#copyright {
+		text-align: center;
+		padding: 10px 0 5px 0;
 	}
 }
-
 /****************************************************************************
 {320 X 480} + (480 X 320) Portrait View (Phone)
 ****************************************************************************/
@@ -98,10 +103,26 @@ footer {
 		max-width: 100vh;
 		max-height: 100vh;
 	}
-	nav ul li {
-		padding: 0 2% 0 2%;
-	}
 	#logo {
-		padding-top: 100px;
+		position: relative;
+		top: 10px;
+	}
+	nav {
+		position: relative;
+		right: 20px;
+		top: -10px;
+	}
+	nav ul li {
+		text-align: center;
+		display: block;
+		margin: 0;
+		padding-top: 10px;
+	}
+	.carouselPic {
+		height: 450px;
+	}
+	#copyright {
+		text-align: center;
+		padding: 10px 0 5px 0;
 	}
 }
