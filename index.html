@@ -1,0 +1,91 @@
+<!-- Website curated by David Adewoyin
+
+Here's a text version of Bender because...well because Futurama is awesome.
+
+____________¶¶¶
+___________¶___¶
+____________¶¶¶
+____________¶_¶
+____________¶_¶
+__________¶¶¶_¶¶¶
+________¶¶__¶¶¶__¶¶¶
+______¶¶__¶¶¶¶¶¶¶___¶
+_____¶_______________¶
+____¶_________________¶
+____¶_________________¶
+____¶_____¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶
+____¶____¶_______________¶
+____¶____¶___¶¶¶¶¶¶¶¶¶¶¶¶¶
+____¶___¶___¶___________¶¶¶
+____¶___¶___¶_¶¶¶___¶¶¶__¶¶
+____¶___¶___¶_¶¶¶___¶¶¶__¶¶
+____¶___¶___¶___________¶¶¶
+____¶____¶___¶¶¶¶¶¶¶¶¶¶¶¶¶
+____¶_____¶¶¶¶¶¶¶¶¶¶¶¶¶¶
+____¶_________________¶
+____¶____¶¶¶¶¶¶¶¶¶¶¶¶¶¶
+____¶___¶__¶__¶__¶__¶
+____¶__¶¶¶¶¶¶¶¶¶¶¶¶¶¶
+____¶__¶___¶__¶__¶__¶
+____¶___¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶
+___¶¶¶_________________¶¶¶
+
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>MCMT</title>
+<meta name="description" content="MCMT is a brand founded by Maria Cecilia Mendoza-Tinoco.">
+<meta name="keywords" content="MCMT art painting paint Maria Cecilia Mendoza Tinoco creative nice paintings">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="style.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
+<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.5.9/slick-theme.css"/>
+</head>
+<body>
+
+<h1 id="logo"> MCMT </h1>
+
+<nav>
+    <ul>
+   		<li> <a href="index.html"> Home </a> </li>
+    	<li> <a href=""> Biography </a> </li>
+    	<li> <a href=""> Portfolio </a> </li>
+    	<li> <a href=""> Contact </a> </li>
+    </ul>
+</nav>
+
+<!-- Carousel -->
+
+<div class="carousel">
+ 	<div><img class="carouselPic" src="Assets/home_carousel/home_carousel_1.jpg" alt="painting 1"></div>
+ 	<div><img class="carouselPic" src="Assets/home_carousel/home_carousel_2.jpg" alt="painting 2"></div>
+ 	<div><img class="carouselPic" src="Assets/home_carousel/home_carousel_3.jpg" alt="painting 3"></div>
+</div>
+
+<footer>
+	<p id="copyright"> Copyright 2016 © MCMT </p>
+</footer>
+
+
+
+<script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('.carousel').slick({
+        accessibility: true,
+        autoplay: true,
+        autoplaySpeed: 3500,
+        arrows: false,
+        dots: false,
+        fade: true,
+        pauseOnHover: false,
+      });
+    });
+</script>
+</body>
+</html>
