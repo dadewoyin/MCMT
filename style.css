@@ -64,6 +64,49 @@ footer {
 	padding: 10px 0 0 5px;
 }
 
+/* Contact */
+#wrapper {
+	padding-top: 3px;
+}
+.center-align {
+	text-align: center
+}
+form {
+	width: 350px;
+	margin: 0 auto;
+}
+.form-input {
+	width: 350px;
+	height: 20px;
+	margin: auto;
+	border: 1px solid grey;
+	margin-top: 25px;
+	font-size: .8em;
+	border-radius: 3px;
+}
+#textarea {
+	width: 350px;
+	height: 150px;
+	margin: auto;
+	border: 1px solid grey;
+	margin-top: 25px;
+	font-size: .8em;
+	border-radius: 3px;
+	resize: none;
+}
+#submit {
+	width: 50px;
+	margin: 0 auto !important;
+	display: block;
+}
+
+#copyright-abs {
+	position: absolute;
+	bottom: 0;
+	left: 5px;
+	font-size: .9em;
+}
+
 /* Media Queries */
 /****************************************************************************
 (800 X 600) + (768 X 1024) Tablet View
@@ -95,6 +138,18 @@ footer {
 		text-align: center;
 		padding: 10px 0 5px 0;
 	}
+	#copyright-abs {
+	text-align: center;
+	font-size: .9em;
+	position: static;
+	padding-bottom: 5px;
+	}
+	.form-input {
+		width: 335px;
+	}
+	#textarea {
+		width: 345px;
+	}
 }
 /****************************************************************************
 {320 X 480} + (480 X 320) Portrait View (Phone)
@@ -125,5 +180,21 @@ footer {
 	}
 	#logo-container {
 		padding-top: 10px;
+	}
+
+	/* Contact */
+
+	#copyright-abs {
+	text-align: center;
+	font-size: .9em;
+	position: static;
+	padding-bottom: 5px;
+	}
+
+	.form-input {
+		width: 335px;
+	}
+	#textarea {
+		width: 345px;
 	}
 }
