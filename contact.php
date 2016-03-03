@@ -53,12 +53,6 @@
 
 		}
 
-		if (!$message) {
-
-			$error .= "<br> Please enter a message";
-
-		}
-
 		if ($_POST['email'] !="" AND !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
  	 	 	
  	 	 	$error .= "<br> Please enter a valid email address";
@@ -73,7 +67,7 @@
 
 	 	 	// Send email if input passes validation
 
-	 	 	if (mail("mmariac@yahoo.com", "MCMT Contact",
+	 	 	if (mail("mendozamcecilia@gmail.com", "MCMT Contact",
 				"Name: ".$name.
 				"\r\nEmail: ".$email.
 				"\r\nMessage: ".$message
@@ -107,7 +101,7 @@
 
 		<input type="email" name="email" placeholder="Email" class="form-input" required />
 
-		<textarea placeholder="Message" name="message" id="textarea"></textarea>
+		<textarea placeholder="Message (optional)" name="message" id="textarea"></textarea>
 
 		<br> <br>
 
